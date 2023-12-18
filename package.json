@@ -1,6 +1,6 @@
 {
   "name": "@lammu/lowcode-component-antd5",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "阿里低代码引擎物料工程-antd@5组件",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -12,6 +12,8 @@
     "es",
     "types"
   ],
+  "author": "lammu fusion-team",
+  "license": "MIT",
   "scripts": {
     "start": "npm run dumi",
     "build": "build-scripts build",
@@ -29,8 +31,6 @@
   "keywords": [
     "Fusion"
   ],
-  "author": "fusion-team",
-  "license": "MIT",
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,vue}": "f2elint exec eslint",
     "**/*.{css,scss,less,acss}": "f2elint exec stylelint"
